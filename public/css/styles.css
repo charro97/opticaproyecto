@@ -1,0 +1,161 @@
+* {
+    background-color: white;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;     /*Raleway Regular 400*/
+    margin: 5px;
+    padding: 5px;
+    color: #242922;
+}
+
+.dis{
+  margin-top: 4%;
+  margin-left: 10%;
+  font-size: 25px;
+  color: rgb(18, 43, 97);
+  font-style: oblique;
+}
+
+#menu_grande ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  padding-top: 1%;
+}
+
+#menu_grande ul li {
+  margin-right: 20px;
+}
+
+#logo a {
+  font-size: large;
+  font: 40px solid black;
+}
+
+li {
+  list-style: none;
+  font-weight: bold;
+}
+
+a {
+  color: #242922;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#crear a, #editar a, #borrar a {
+  background-color: #242922;
+  color: white;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.comprar a{
+  
+  background-color: #77122e;
+  color: white;
+  padding: 4px;
+  border-radius: 2px;
+  
+}
+
+th,
+td {
+  width: 25%;
+}
+
+table th {
+  text-align: center;
+}
+
+table td {
+  text-align: center;
+}
+
+#producto_new, #pedido_new {
+    display: flex;
+    flex-direction: column;
+    flex-grow: inherit;
+}
+
+input[type=text], input[type=email], input[type=password],textarea {
+    width: 20%;
+    padding: 4px 4px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+input[type=number],input[type=submit], select {
+    width: 10%;
+    padding: 4px 4px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+
+img {
+  width: 100px;
+}
+
+#inicio {
+  width: 80%;
+  margin-left: 5%;
+  border-radius: 2px;
+}
+
+
+.product {
+  
+  width: 15%;
+  margin-left: 30px;
+
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.boton_eliminar, .boton_vaciar {
+  background-color: #572023;
+  color: white;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.boton_hacer {
+  background-color: #242922;
+  color: white;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+
+.tCarrito {
+  width: 100%;
+}
+
+.tCarrito th,
+.tCarrito td {
+  width: 20%;
+}
+
+
+.mispedidos {
+  width: 100%;
+}
+
+
+.mispedidos th,
+.mispedidos td {
+  width: 15%;
+}
